@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# FireSense .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Kredensial / rahasia (JANGAN pernah di-commit) ───────────────────────────
+# CATATAN: .gitignore TIDAK mendukung komentar inline; pola HARUS berdiri sendiri.
+.env
+# berisi API key/secret asli, pakai opnsense_config.example.py sebagai template
+FireSenseCli/opnsense_config.py
+opnsense_config.py
+# script kemudahan lokal berisi kredensial lab hardcoded (folder di-rename firesense→FireSense)
+FireSense/isi_config.py
+firesense/isi_config.py
+isi_config.py
+
+# Config runtime lokal FireSense (%APPDATA%\FireSense\config.json / ~/.config/firesense)
+config.json
+
+# ── Dokumen pribadi/internal (laporan TA, review): tidak dipublikasikan ──────
+docs/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Virtualenv (FireSenseCli/myenv ~3 GB) ───────────────────────────────
+myenv/
+venv/
+.venv/
+env/
+
+# ── Build PyInstaller (.exe FireSense) ───────────────────────────────────────
+build/
+dist/
+*.spec
+# Installer/binari besar (262 MB): distribusikan lewat GitHub Releases, bukan repo
+*.exe
+
+# ── Log & artefak run lokal ──────────────────────────────────────────────────
+*.log
+results/
+runs/
+
+# ── OS / editor / tooling lokal ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# ── Skrip artefak tesis / dev (disimpan lokal, tidak dipublikasikan) ──────────
+python_maker/
+FireSenseCli/bukti_4_aksi.py
+FireSenseCli/generate_pdf.py
+FireSenseCli/generate_guide_pdf.py
+FireSenseCli/dashboard.py
