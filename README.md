@@ -11,8 +11,6 @@ FireSense memantau lalu lintas jaringan pada firewall **OPNsense** setiap 30 det
 model AI (*Deep Q-Network*) lalu memutuskan tindakan yang tepat, yaitu membiarkan, memblokir,
 memperketat, atau membuka blokir, dan langsung menerapkannya ke firewall.
 
-Proyek ini adalah Tugas Akhir program **Rekayasa Keamanan Siber, Politeknik Siber dan Sandi Negara**.
-
 ---
 
 ## ❓ Apa yang saya dapat dari repo ini?
@@ -115,7 +113,3 @@ log2.csv          Dataset pelatihan (Internet Firewall Data Set, Kaggle)
 FireSense mengadopsi dan **memvalidasi** pendekatan pada penelitian *FireRL* (Yang et al., 2025),
 yang sebelumnya hanya diuji di simulasi, ke dalam *deployment* OPNsense nyata.
 Dataset pelatihan: *Internet Firewall Data Set* (Kaggle).
-
-## 👤 Penulis
-
-Satwika Prabhawananda. Rekayasa Keamanan Siber, Politeknik Siber dan Sandi Negara.
