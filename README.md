@@ -1,4 +1,8 @@
-# 🔥 FireSense: Firewall Pintar yang Belajar Sendiri
+<p align="center">
+  <img src="assets/banner.png" alt="FireSense — Secure with Sense" width="820">
+</p>
+
+<h1 align="center">FireSense: Firewall Pintar yang Belajar Sendiri</h1>
 
 > Firewall adaptif yang memakai **kecerdasan buatan (AI)** untuk mengenali dan memblokir
 > serangan jaringan secara otomatis, tanpa perlu Anda menulis aturan (*rule*) satu per satu.
